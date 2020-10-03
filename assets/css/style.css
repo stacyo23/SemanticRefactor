@@ -1,12 +1,17 @@
+/* sets the beginning styles*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* sets the body background color to grey*/
 
 body {
     background-color: #d9dcd6;
 }
+
+/* sets header styles*/
 
 .header {
     padding: 20px;
@@ -15,11 +20,13 @@ body {
     color: #ffffff;
 }
 
+/* sets the company name styles*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the color of the font in-line*/
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -61,6 +68,11 @@ p {
     background-position: center;
 }
 
+figure {
+    height: 800px;
+    width: 100%;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -77,36 +89,45 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+ .benefits { */
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 20%; 
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2589bd; 
+
 }
 
-/* combined classes since they were doing the same thing */
+/* combined classes with similar functions*/
 
-.benefit-lead,.benefit-brand, .benefit-cost   {
+.benefit-lead,
+.benefit-brand, 
+.benefit-cost   {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefit-lead h3, 
+.benefit-brand h3, 
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img,.benefit-brand img, .benefit-cost img {
+.benefit-lead img,
+.benefit-brand img, 
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing  {
+.search-engine-optimization, 
+.online-reputation-management, 
+.social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -116,16 +137,17 @@ p {
 }
 
 .search-engine-optimization img, 
-.online-reputation-management img, .social-media-marketing img {
+.online-reputation-management img, 
+.social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.search-engine-optimization h2, 
+.online-reputation-management h2, 
+.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* combined classes since they were doing the same thing */
 
 .footer {
     padding: 30px;
